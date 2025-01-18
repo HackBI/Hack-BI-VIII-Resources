@@ -1,0 +1,79 @@
+* 
+/*please change the colors anywhere on this file, replace the '#fff' with a color hex code. Go to htmlcolorcodes.com*/
+/*you can change the font, just search up 'CSS Websafe fonts' on W3Schools and copy-paste any of fonts listed*/
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header styling */
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    font-size: 2.5em;
+}
+
+/* About section styling */
+.about {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.about-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.about-header h2 {
+    font-size: 2em;
+    color: #333;
+    margin-right: 15px; /* Space between text and image */
+}
+
+.about-img {
+    width: 80px;
+    height: auto;
+    border-radius: 50%; /* Makes the image circular, you can increase or decrease the percentage */
+}
+
+/* Paragraph styling */
+.about p {
+    font-size: 1.1em;
+    margin-bottom: 15px;
+}
+.hobby-img {
+    width: 250px;
+    height: auto;
+}
+
+/* Footer styling */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+}
+
+footer p {
+    font-size: 1em;
+}
